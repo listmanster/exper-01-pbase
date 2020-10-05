@@ -6,7 +6,7 @@ import {IdentityContextProvider } from 'react-netlify-identity-widget';
 import './layout.css';
 
 const Layout = ({children}) => (
-    <IdentityContextProvider>
+    <IdentityContextProvider url="https://exper-01-pbase.netlify.app">
         <header>
             <Link to="/">ParserBase</Link>
         </header>
